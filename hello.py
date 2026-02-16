@@ -52,6 +52,13 @@
 # averagespeed=(distance/time)
 # print(averagespeed)
 
-a=int(input("Enter the first  number:"))
-b=int(input("Enter the first  number:"))
-    
+# a=int(input("Enter the first  number:"))
+# b=int(input("Enter the first  number:"))
+
+
+rows=int(input("enter the number:"))
+for i in range(1,rows+1):
+   for j in range(1,i+1):
+    print("*",end=" ")
+   print("")   
+   

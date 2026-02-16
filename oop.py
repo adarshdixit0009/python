@@ -125,6 +125,13 @@
 #     print("marks:",self.marks)
 
 # s1=student(95)
-# s1.display_marks()       
+# s1.display_marks()  
+#      
+students = {
+  "name":"alice",
+   "rollno": "2",
+   "class":"12A"
+}
+print(students["name"]) 
 
 
