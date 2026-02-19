@@ -127,11 +127,81 @@
 # s1=student(95)
 # s1.display_marks()  
 #      
-students = {
-  "name":"alice",
-   "rollno": "2",
-   "class":"12A"
-}
-print(students["name"]) 
+# students = {
+#   "name":"alice",
+#    "rollno": "2",
+#    "class":"12A"
+# }
+# print(students["name"]) 
+ 
 
+# question1
+# countries={
+#     "india":"delhi",
+#     "austrilia":"canberra",
+#     "UAE":"dubai",
+#     "USA":"washington DC",
+#     "russia":"moscow"
+# } 
+# print(countries)
+
+# question2
+# countries={
+#     "india":"delhi",
+#     "austrilia":"canberra",
+#     "UAE":"dubai",
+#     "USA":"washington DC",
+#     "russia":"moscow"
+# } 
+# print(countries["india"])  
+
+# question3
+# countries={
+#     "india":"delhi",
+#     "austrilia":"canberra",
+#     "UAE":"dubai",
+#     "USA":"washington DC",
+#     "russia":"moscow"
+# } 
+# countries["japan"]= "Tokyo"
+# print(countries)
+
+# question4
+# countries={
+#     "india":"delhi",
+#     "austrilia":"canberra",
+#     "UAE":"dubai",
+#     "USA":"washington DC",
+#     "russia":"moscow"
+# }
+# countries["USA"]="New york"
+# print(countries)
+ 
+# question5
+# countries={
+#     "india":"delhi",
+#     "austrilia":"canberra",
+#     "UAE":"dubai",
+#     "USA":"washington DC",
+#     "russia":"moscow"
+# }
+# del countries['UAE']
+# print(countries)
+
+
+# question6
+# students={
+#     "rahul":"65",
+#     "aman":"77",
+#     "alice":"90",
+#     "bob":"80",
+#     "emmy":"77"
+# }
+# print("all students names:")
+# for name in students.keys():
+#     print(name)  
+
+# question9
+sentence=input("enter the sentence:")
+words=sentence.spilts()
 
